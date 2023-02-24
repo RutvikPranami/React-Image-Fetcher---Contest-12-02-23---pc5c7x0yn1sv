@@ -4,7 +4,7 @@ import "../styles/App.css"
 export const PhotoFrame = ({url, title}) => {
     return(
         <div className='photoframe'>
-            <div>{title}</div>
+            <div className='caption'>{title}</div>
             <img src={url} />
         </div>
     )
